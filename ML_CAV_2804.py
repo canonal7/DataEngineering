@@ -10,25 +10,16 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scikit-learn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV
 from imblearn.over_sampling import RandomOverSampler, SMOTENC
 from imblearn.under_sampling import RandomUnderSampler
-from scikit-learn.linear_model import LogisticRegression
-from scikit-learn.ensemble import RandomForestClassifier
-from scikit-learn.feature_selection import mutual_info_classif as MIC
-from sscikit-learn import LinearSVC
-from scikit-learn import metrics
-from scikit-learn.metrics import classification_report
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.feature_selection import mutual_info_classif as MIC
+from sklearn.svm import LinearSVC
+from sklearn import metrics
+from sklearn.metrics import classification_report
 
-# from sklearn.model_selection import train_test_split, GridSearchCV
-# from imblearn.over_sampling import RandomOverSampler, SMOTENC
-# from imblearn.under_sampling import RandomUnderSampler
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.ensemble import RandomForestClassifier
-# from sklearn.feature_selection import mutual_info_classif as MIC
-# from sklearn.svm import LinearSVC
-# from sklearn import metrics
-# from sklearn.metrics import classification_report
 
 # %% [markdown]
 # #### Setting global random seed (necessary for sklearn models)
