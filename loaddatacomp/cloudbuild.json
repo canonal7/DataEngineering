@@ -1,0 +1,15 @@
+{
+    "steps": [
+        {
+            "name": "gcr.io/google.com/cloudsdktool/cloud-sdk", 
+            "entrypoint": "bash",
+            "args": [
+                "-c",
+                "gsutil cp gs://dataset-de2023/data . && echo 'Data file downloaded successfully.'" 
+            ]
+        }
+    ], 
+    "options": {
+        "machineType": "E2_SMALL"
+    }
+}
