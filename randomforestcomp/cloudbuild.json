@@ -1,0 +1,15 @@
+{
+    "steps": [
+      {
+        "name": "gcr.io/data-engineering-2023-401511/randomforestcomp",
+        "args": [
+          "--input_data_path", "gs://your_bucket_name/cleaned_data/",
+          "--output_model_path", "gs://your_bucket_name/models/random_forest/"
+        ]
+      }
+    ],
+    "options": {
+      "machineType": "N1_HIGHCPU_8"
+    }
+  }
+  
