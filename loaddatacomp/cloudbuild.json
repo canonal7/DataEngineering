@@ -5,7 +5,7 @@
             "entrypoint": "bash",
             "args": [
                 "-c",
-                "gsutil cp gs://dataset-de2023/data . && echo 'Data file downloaded successfully.'" 
+                "gsutil cp gs://noshows_dataset/KaggleV2-May-2016.csv . && echo 'Data file downloaded successfully.'" 
             ]
         }
     ], 
